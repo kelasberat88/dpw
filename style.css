@@ -1,0 +1,46 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kolomkiri {
+  width: 30%;
+}
+
+.kolomkanan {
+  width: 70%;
+}
+
+.tabel table, .tabel th, .tabel td {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.tabel th {
+  background-color: cadetblue;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.tabel td .tooltips {
+  display:none; 
+  line-height:16px;
+}
+
+.tabel tr:hover {
+  background-color: rgb(67, 245, 171);
+}
+
+.tabel td:hover {
+  text-align: left;
+}
+
+.tabel td:hover .tooltips {
+  display:inline; 
+  position:absolute; 
+  z-index:auto;
+  width:300px; 
+  color:#111;
+  margin: 0;
+  border:1px solid #DCA; 
+  background:#fffAF0;
+}
