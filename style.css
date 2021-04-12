@@ -34,7 +34,7 @@
   text-align: left;
 }
 
-.tabel td:hover .tengah {
+.tengah td:hover {
   text-align: center;
 }
 
