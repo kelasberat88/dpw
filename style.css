@@ -34,6 +34,10 @@
   text-align: left;
 }
 
+.tabel td:hover .tengah {
+  text-align: center;
+}
+
 .tabel td:hover .tooltips {
   display:inline; 
   position:absolute; 
